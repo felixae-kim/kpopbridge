@@ -4,7 +4,8 @@ import { ArtistProfile } from './types';
 export const ARTIST_DATA: ArtistProfile = {
   name: "Apink",
   currentSong: "RE : LOVE",
-  heroImage: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=1920",
+  // 아티스트가 제공한 공식 앨범 커버 이미지 (RE : LOVE)
+  heroImage: "https://m.en.sound-wave.co.kr/web/product/big/202512/255711f519e0acd2a794e5acaf88d2f7.jpg",
   albumCovers: [
     "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?auto=format&fit=crop&q=80&w=800",
@@ -36,9 +37,9 @@ export const ARTIST_DATA: ArtistProfile = {
     },
     {
       name: "FLO",
-      icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z",
+      icon: "M7 4h10c0 4.5-10 4.5-10 9s10 4.5 10 9H7v-3c0-4.5 10-4.5 10-9s-10-4.5-10-9V4z",
       url: "https://www.music-flo.com",
-      color: "bg-gradient-to-tr from-pink-500 to-rose-400",
+      color: "bg-[#3F3FFF]",
       textColor: "text-white"
     }
   ],
