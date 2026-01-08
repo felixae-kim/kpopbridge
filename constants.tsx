@@ -4,8 +4,9 @@ import { ArtistProfile } from './types';
 export const ARTIST_DATA: ArtistProfile = {
   name: "Apink",
   currentSong: "RE : LOVE",
-  // 아티스트가 제공한 공식 앨범 커버 이미지 (RE : LOVE)
   heroImage: "https://m.en.sound-wave.co.kr/web/product/big/202512/255711f519e0acd2a794e5acaf88d2f7.jpg",
+  // 안정적인 고화질 배경 영상 (화려한 스테이지 조명)
+  heroVideo: "https://assets.mixkit.co/videos/preview/mixkit-girl-dancing-on-a-brightly-lit-stage-42523-large.mp4",
   albumCovers: [
     "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?auto=format&fit=crop&q=80&w=800",

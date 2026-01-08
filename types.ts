@@ -34,6 +34,7 @@ export interface ArtistProfile {
   name: string;
   currentSong: string;
   heroImage: string;
+  heroVideo?: string; // 배경 영상 필드 추가
   albumCovers: string[];
   dsps: DSP[];
   news: NewsItem[];

@@ -40,11 +40,12 @@ const App: React.FC = () => {
           </div>
         </header>
 
-        {/* 1. Hero Section */}
+        {/* 1. Hero Section - 비디오 URL 추가 */}
         <Hero 
           name={ARTIST_DATA.name}
           songTitle={ARTIST_DATA.currentSong}
           imageUrl={ARTIST_DATA.heroImage}
+          videoUrl={ARTIST_DATA.heroVideo}
         />
 
         {/* 2. DSP Links Section */}
